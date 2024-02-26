@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-45j!p*q8qp9sh3co4qnbhjjb7+w_zz@=*@boq+52m4ry1+sd+c'
+SECRET_KEY = 'django-insecure-o%wm!wdv4z%q#y10fbjj(m4$du)f^^1!()ern_x1(o*5wc$av('
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -105,9 +105,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ja'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Tokyo'
 
 USE_I18N = True
 
@@ -127,4 +127,3 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
  # 画像関連の設定
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media_local'
-
