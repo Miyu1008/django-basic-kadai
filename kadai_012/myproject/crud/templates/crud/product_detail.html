@@ -17,8 +17,9 @@
     <tr>
         <td>{{ product_detail.name }}</td>
         <td>{{ product_detail.price }} 円</td>
-        <td>{{ product.category }}</td>
-        <td><img src="{{ product.img.url }}" style="width:100px height:auto;"></td>
+        <td>{{ product_detail.category }}</td>
+        <td><img src="{{ product_detail.img.url }}" style="width:100px height:auto;"></td>
+        <td>{{product_detail.description}}</td>
 
     <br>   
     </tr>   
